@@ -33,8 +33,8 @@ class AfterOnBoarding extends StatelessWidget{
       child: PageView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: PageViewData.length,
-        itemBuilder: (context, index) {
-          return PageViewItem(context: context, model: PageViewData[index]);
+        itemBuilder: (context, index) { //خلى بالك ي ايمان
+        //  return PageViewItem(context: context, model: PageViewData[index]);
         },
         controller: controller,
         physics: BouncingScrollPhysics(),
