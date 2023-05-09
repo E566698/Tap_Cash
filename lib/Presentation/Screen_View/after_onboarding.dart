@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:tab_cash/Data/Models/PageViewModel.dart';
-import 'package:tab_cash/Presentation/Screen_View/Register.dart';
+import 'package:tab_cash/Presentation/Screen_View/Common_Register/Register_Data.dart';
+
 import 'package:tab_cash/Presentation/Screen_View/sign_in.dart';
 
 import '../../Resource/Color_Manager.dart';
@@ -62,7 +63,7 @@ class AfterOnBoarding extends StatelessWidget{
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => SignIn()));
+                            builder: (context) => LogIn()));
                   }
                 }),
                 SizedBox(height: 10,),
@@ -73,7 +74,7 @@ class AfterOnBoarding extends StatelessWidget{
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => Register()));
+                            builder: (context) =>  RegisterData()));
                   }
                 })
 

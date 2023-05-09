@@ -20,7 +20,7 @@ class TabCash extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner : false,
       theme: ThemeApp,
-      home:ManageAccounts() ,
+      home:Splach() ,
     );
 
 
